@@ -1,0 +1,9 @@
+SELECT * FROM users JOIN faveteam;
+
+INSERT INTO users (first_name) 
+VALUES('Addi was here');
+
+UPDATE users SET first_name = 'Addi' WHERE first_name = 'Addi was here'
+
+DELETE FROM users WHERE first_name = 'Addi'
+

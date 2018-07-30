@@ -1,0 +1,7 @@
+.show{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background: url('angular.png');
+    background-size: contain;
+}

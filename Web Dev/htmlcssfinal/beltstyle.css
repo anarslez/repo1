@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: azure;
+    background-color: rgba(48, 47, 47, 0.986);
+}
+#wrap{
+    width: 970px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px auto;
+    outline: black solid;
+}
+#head {
+    background-color: black;
+}
+#head img{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-right:400px;
+}
+#head h3{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+#headlink ul{
+    background-color: rgb(87, 85, 85);
+}
+#headlink ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(87, 85, 85);
+}
+#headlink ul li a{
+    text-decoration: none;
+    background-color: rgb(87, 85, 85);
+    color: rgb(187, 184, 184);
+}
+#headlink ul li a span{
+    text-decoration: none;
+    background-color: rgb(87, 85, 85);
+    color: white;
+}
+#mainpic img{
+    width: 100%;
+    border-bottom: gray solid;
+}
+#maincontent .box{
+    padding: 20px;
+    width:23%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 5px;
+}
+#maincontent .box h2{
+    display: inline-block;
+    color: orange;
+}
+#maincontent .box img{
+    display: inline-block;
+    width: 30px;
+}
+#maincontent .box p{
+    display: inline-block;
+    margin-left: 50px;
+    background-color: rgba(48, 47, 47, 0.726);
+}
+#buybar {
+    background-color: black;
+    padding: 10px;
+}
+#buybar h1,p{
+    background-color: black;
+    width: 70%;
+    display: inline-block;
+    margin-left: 25px;
+}
+#buybar input{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 15%;
+    height: 30px;
+    background-color: orange;
+    border-radius: 10px;
+}
+#foot {
+    margin-left: 30px;
+}
+#foot h2{
+    padding: 10px;
+    width: 90%;
+    display: inline-block;
+}
+#foot .box{
+    width: 23%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+#foot .box img{
+    width: 80%;
+    border: grey solid;
+}
+#foot h3{
+    width: 80%;
+    padding: 10px; 
+    color: orange;
+}
+#foot p{
+    width: 80%;
+    background-color: rgba(48, 47, 47, 0.986);
+    margin: 0px;
+}
+#foot a{
+    margin-left: 750px;
+    text-decoration: none;
+}
+#foot a #minilink{
+    margin-left: -150px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50%;
+    color: orange;
+}
+

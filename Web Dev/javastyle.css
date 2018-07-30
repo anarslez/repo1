@@ -1,0 +1,48 @@
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(50, 8, 129);
+    width: 970px;
+   }
+h1 {
+    background-color: red;
+    margin: 10px;
+    width: 950px;
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+  }
+.one {
+      display: inline-block;
+      width: 200px;
+      vertical-align: top;
+      margin: 10px;
+      margin:10px;
+      color: rgb(151, 243, 250);
+      background-color: rgb(29, 172, 172);
+      padding: 5px;
+      border-radius: 4px;
+  }
+.two {
+    display: inline-block;
+    width: 700px;
+    margin: 10px;
+    background-color:black;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+.tres {
+    background-color: grey;
+    color: white;
+    margin: 10px;
+    font-size: 75%;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 4px;
+}
+
+
+

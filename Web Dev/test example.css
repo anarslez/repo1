@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    outline: dotted red;
+}
+
+#wrap {
+    background-color: navy;
+    width: 970px;
+    height: 1000px;
+    margin: 0px auto;
+}
+
+#nav a,#footer a{
+    text-decoration: none;
+}
+
+
+.blue {
+    width: 33%;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#maincontent p{
+    color: yellow;
+}

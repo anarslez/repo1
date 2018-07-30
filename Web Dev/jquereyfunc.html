@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>jquery</title>
+    <link rel="stylesheet" type="text/css" href="jquerey.css">
+</head>
+
+<body>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $('input.class').click(function(){
+                $('p.class').css('color', 'red');
+            });
+            $('input.tog').click(function(){
+                $('p.tog').slideToggle();
+            });
+            $('input.app').click(function(){
+                $('p.app').append(' woooohoooooooooowooooohoooooo');
+            });
+        });
+    </script>
+
+    <h1>AddClass</h1>
+    <input class = "class" type="button" value="AddClass">
+    <p class="class">Click button to add class to this paragraph</p>
+    <div class="line"></div>
+    <h1>Slidetoggle</h1>
+    <input class = "tog" type="button" value="Slidetoggle">
+    <p class="tog">Click button to Slidetoggle a hidden image</p>
+    <div class="line"></div>
+    <h1>Apend</h1>
+    <input class="app" type="button" value="Apend">
+    <p class="app">Click button to apend a new paragraph</p>
+    <div class="line"></div>
+</body>
+
+</html>

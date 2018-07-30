@@ -1,0 +1,83 @@
+.one{
+    background-color: rgb(102, 2, 52);
+    min-height: 200px;
+    width: 1200px;
+}
+.one img {
+    margin-left: 35px;
+}
+.three{
+    background-color: ghostwhite;
+    font-family: sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    height: 360px;
+    width: 535px;
+    margin-left: 50px;
+}
+.three h2{
+    padding: 10px;
+}
+.three p{
+    padding: 10px;
+}
+.three a{
+    padding: 10px;
+}
+.four .two img{
+    height: 50px;
+    width: 50px;
+}
+.four {
+    width: 350px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: gainsboro;
+    display: inline-block;
+}
+.four img{
+    width: 350px;
+    height: 200px;
+    margin: 0px;
+}
+h1 {
+    background-color: whitesmoke;
+    height: 40px;
+    padding: 10px;
+}
+h1 span{
+    margin-left:500px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    background-color: silver;
+}
+h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    background-color: silver;
+}
+img{
+    border-color: gray;
+    height: 360px;
+    width: 535px;
+    display: inline-block;
+}
+.five h4{
+    text-align: center;
+    vertical-align: bottom;
+    background-color: azure;
+    height: 20px;
+    margin: 0px;
+}
+.five img{
+    width: 20px;
+    height:20px;
+}
+

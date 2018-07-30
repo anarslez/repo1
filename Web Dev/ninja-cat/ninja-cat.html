@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>jquery</title>
+    <link rel="stylesheet" type="text/css" href="ninjacat.css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script>
+        $(document).ready(function () {
+            $('img.n0').hide()
+            $('img.n1').hide()
+            $('img.n2').hide()
+            $('img.n3').hide()
+            $('img.n4').hide()
+            $('img.c0').click(function () {
+                $(this).hide();
+                $('img.n0').show();
+            });
+            $('img.n0').click(function () {
+                $(this).hide();
+                $('img.c0').show();
+            });
+            $('img.c1').click(function () {
+                $(this).hide();
+                $('img.n1').show();
+            });
+            $('img.n1').click(function () {
+                $(this).hide();
+                $('img.c1').show();
+            });
+            $('img.c2').click(function () {
+                $(this).hide();
+                $('img.n2').show();
+            });
+            $('img.n2').click(function () {
+                $(this).hide();
+                $('img.c2').show();
+            });
+            $('img.c3').click(function () {
+                $(this).hide();
+                $('img.n3').show();
+            });
+            $('img.n3').click(function () {
+                $(this).hide();
+                $('img.c3').show();
+            });
+            $('img.c4').click(function () {
+                $(this).hide();
+                $('img.n4').show();
+            });
+            $('img.n4').click(function () {
+                $(this).hide();
+                $('img.c4').show();
+            });
+            $('.refresh').click(function(){
+            location.reload();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Disapearing ninja</h1>
+    <img class="c0" src="cat0.png" />
+    <img class="n0" src="ninja0.png" />
+    <img class="c1" src="cat1.png" />
+    <img class="n1" src="ninja1.png" />
+    <img class="c2" src="cat2.png" />
+    <img class="n2" src="ninja2.png" />
+    <img class="c3" src="cat3.png" />
+    <img class="n3" src="ninja3.png" />
+    <img class="c4" src="cat4.png" />
+    <img class="n4" src="ninja4.png" />
+    <input class="refresh" type="button" value="refresh page">
+</body>

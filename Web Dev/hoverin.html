@@ -1,0 +1,28 @@
+<html>
+
+<head>
+	<title>jQuery</title>
+    <link rel="stylesheet" type="text/css" href="hoverin.css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script>
+		$(document).ready(function () {
+			$('.show').hover(function () {
+                $(this).css('background','url("bootstrap.png")');
+                $(this).css('background-size','contain');
+			    }, function() {
+                $(this).css('background','url("angular.png")');
+                $(this).css('background-size','contain');
+            });
+        });    
+    </script>
+</head>
+
+<body>
+    <div class="show"></div>
+    <div class="show"></div>
+    <div class="show"></div>
+    <div class="show"></div>
+    <div class="show"></div>
+    <div class="show"></div>
+</body>
+</html>

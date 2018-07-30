@@ -1,0 +1,96 @@
+
+.wrap {
+    background-color: rgb(42, 42, 151);
+    width: 970px;
+    margin: auto;
+}
+.head h5{
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin: 10px;
+}
+.head img{
+    width: 350px;
+    display: inline-block;
+    margin-right:250px;
+}
+.search {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 8px;
+}
+.headlinks{
+    margin-left: 100px;
+    width: 750px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(23, 115, 190);
+    border-radius: 5px;
+}
+.headlinks a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.maincontent{
+    display: inline-block;
+    margin-left: 100px; 
+    text-align: center;
+    color: azure
+}
+.maincontent ul{
+    width: 250px;
+    display: inline-block;
+    font-size: 20px;
+}
+.maincontent .description{
+    width: 490px;
+    display: inline-block;
+    vertical-align: top;
+}
+.maincontent p{
+    width: 490px; 
+    font-size: 10px;
+}
+.maincontent .description h3{
+    margin: 7px;
+    color: yellow;
+}
+.maincontent .description h4{
+    margin: 7px;
+}
+.wrap .info{
+    background-color: white;
+    text-decoration: none;
+}
+.wrap .info p{
+    background-color: white;
+    width: 350px;
+}
+.wrap .info div{
+    background-color: white;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 90px;
+}
+.wrap .info .line{
+    background-color: rgb(29, 126, 182);
+    width: 350px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+#foot{
+    text-align: center;
+    color: azure;
+    padding-bottom: 20px;
+}
+#foot a{
+    padding: 10px;
+}
