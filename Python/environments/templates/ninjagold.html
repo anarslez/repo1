@@ -1,0 +1,64 @@
+<head>
+    <style>
+        form.head{
+            width: 100%;
+        }
+        form.head p {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        form.head p.count{
+            border: solid gray;
+            padding: 10px;
+        }
+        form{
+            width: 23%;
+            display: inline-block;
+            padding: 5px;
+        }
+        form.box{
+            border: solid black;
+        }
+        h3, p {
+            text-align: center;
+        }
+        input {
+            margin-left: 9%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action='/' method='post' class="head">
+        <p>Your gold:</p>
+        <p class="count">{{count}}</p>
+    </form>
+    <form method="post" action="/process" class="box">
+        <input type="hidden" name="action" value="farm">
+        <h3>FARM</h3>
+        <p>(10-20 gold)</p>
+        <input type="submit" value="MOOO SAYS THE COW">
+    </form>
+    <form method="post" action="/process" class="box">
+        <input type="hidden" name="action" value="cave">
+        <h3>CAVE</h3>
+        <p>(5-10 gold)</p>
+        <input type="submit" value="RAWRR SAYS THE DRAGON">
+    </form>
+    <form method="post" action="/process" class="box">
+        <input type="hidden" name="action" value="house">
+        <h3>HOUSE</h3>
+        <p>(2-5 gold)</p>
+        <input type="submit" value="HI SAYS THE HOME OWNER">
+    </form>
+    <form method="post" action="/process" class="box">
+        <input type="hidden" name="action" value="casino">
+        <h3>CASINO</h3>
+        <p>(+/- 0-50 gold)</p>
+        <input type="submit" value="GAMBLING IS FUN">
+    </form>
+    <form action='/' method='post' class="head">
+        <p>Activity:</p>
+        <p class="count">{{message}}</p>
+    </form>
+</body>

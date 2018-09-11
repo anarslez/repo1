@@ -1,0 +1,33 @@
+<head>
+        <style>
+            h1{
+                text-align: center;
+                margin-top: 100px;
+            }
+            h4{
+                text-align: center;
+            }
+            input{
+                margin-left: 40%;
+                width: 20%;
+            }
+            div{
+                margin-left: 30%;
+                height: 300px; 
+                width: {{num}}%;
+                background-color: {{color}}
+            }
+        </style>
+</head>
+
+<body>
+    <form action='/' method='post'>
+        <h1>ALL NUMBERS AND NO PLAY MAKES JACK A DULL BOY</h1>
+        <h4>Lets play a game. Pick a number between 1 and 100</h4>
+        <div>
+            <p>{{result}}</p>
+        </div>
+        <input type="text" name="guess">
+        <input class="but" type="submit" value="Submit">
+    </form>
+</body>

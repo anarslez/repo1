@@ -1,0 +1,24 @@
+<head>
+    <style>
+    div.one{
+        background-color: blue;
+        width: {{num}}%;
+        height: 60px;
+        margin: 0px auto;
+        display: inline-block;
+    }
+    div.two{
+        background-color:red;
+        width: {{num}}%;
+        height: 60px;
+        margin: 0px auto;
+        display: inline-block;
+    }
+    </style>
+    </head>
+    <body>
+        {% for i in range(x*y)%}
+            <div class = "one"></div>
+            <div class = "two"></div>
+        {% endfor %}
+    </body>

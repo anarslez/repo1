@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\bin\Debug\netcoreapp2.0\formsub.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\bin\Debug\netcoreapp2.0\formsub.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\bin\Debug\netcoreapp2.0\formsub.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\bin\Debug\netcoreapp2.0\formsub.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\bin\Debug\netcoreapp2.0\formsub.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\obj\Debug\netcoreapp2.0\formsub.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\obj\Debug\netcoreapp2.0\formsub.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\obj\Debug\netcoreapp2.0\formsub.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\obj\Debug\netcoreapp2.0\formsub.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\obj\Debug\netcoreapp2.0\formsub.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\formsub\obj\Debug\netcoreapp2.0\formsub.pdb

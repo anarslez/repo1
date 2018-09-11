@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\bin\Debug\netcoreapp2.0\randcode.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\bin\Debug\netcoreapp2.0\randcode.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\bin\Debug\netcoreapp2.0\randcode.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\bin\Debug\netcoreapp2.0\randcode.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\bin\Debug\netcoreapp2.0\randcode.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\obj\Debug\netcoreapp2.0\randcode.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\obj\Debug\netcoreapp2.0\randcode.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\obj\Debug\netcoreapp2.0\randcode.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\obj\Debug\netcoreapp2.0\randcode.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\obj\Debug\netcoreapp2.0\randcode.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\randcode\obj\Debug\netcoreapp2.0\randcode.pdb

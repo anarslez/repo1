@@ -1,0 +1,91 @@
+<head>
+    <style>
+        th{
+            border: gray solid;
+            width: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>SHOW ME THE MONEY!</h2>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <th>T-shirt</th>
+            <th>19</th>
+            <form action='/buy' method='post'>
+                {% csrf_token %}
+                <th>
+                    <select name='quantity'>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </th>
+                <input type='hidden' name='product_id' value='1' />
+                <th>
+                    <button type='submit'>Buy!</button>
+                </th>
+            </form>
+        </tr>
+        <tr>
+            <th>Numchucks</th>
+            <th>29</th>
+            <form action='/buy' method='post'>
+                {% csrf_token %}
+                <th>
+                    <select name='quantity'>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </th>
+                <input type='hidden' name='product_id' value='2' />
+                <th>
+                    <button type='submit'>Buy!</button>
+                </th>
+            </form>
+        </tr>
+        <tr>
+            <th>Samurai Sword</th>
+            <th>9</th>
+            <form action='/buy' method='post'>
+                {% csrf_token %}
+                <th>
+                    <select name='quantity'>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </th>
+                <input type='hidden' name='product_id' value='3' />
+                <th>
+                    <button type='submit'>Buy!</button>
+                </th>
+            </form>
+        </tr>
+        <tr>
+            <th>Kamono</th>
+            <th>99</th>
+            <form action='/buy' method='post'>
+                {% csrf_token %}
+                <th>
+                    <select name='quantity'>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </th>
+                <input type='hidden' name='product_id' value='4' />
+                <th>
+                    <button type='submit'>Buy!</button>
+                </th>
+            </form>
+        </tr>
+</body>

@@ -1,0 +1,58 @@
+<head>
+    <style>
+        input, h2, h3{
+            margin-left: 10px;
+        }
+        .in{
+            margin-left: 30px;
+        }
+        #post {
+            margin: 10px;
+            height: 10%;
+            width: 30%;
+        }
+        #comment {
+            margin: 10px;
+            height: 5%;
+            width: 30%;
+        }
+        p{
+            margin-left: 10px;
+        }
+        .header{
+            display: inline-block;
+            margin: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="header">Welcome {{fname}}</p><a href = "/logout" class="header">Logout</a>
+    {% if messages %} 
+    {% for message in messages %}
+    <p>{{ message }}</p>
+    {% endfor %} 
+    {% endif %}
+        <h2>POST A MESSAGE</h2>
+        <form action="/wall/post" method="POST">
+            {% csrf_token %}
+            <input id ="post" type="text" name="content">
+            <br>
+            <input type="submit" value="POST IT UP FAM">
+        </form>
+        {% for i in posts %}
+        <h3>{{ i.author.first_name }} {{ i.author.last_name }} {{ i.created_at }}</h3>
+        <p>{{ i.content }}</p>
+        {% for j in i.comments.all %}
+        <h5 class = "in">{{ j.author.first_name }} {{ j.author.last_name }} {{ j.created_at }}</h5>
+        <p class = "in">{{ j.content }}</p>
+        {% endfor %}
+        <form action="/wall/comment" method="POST">
+            {% csrf_token %}
+            <input id ="comment" type="text" name="content">
+            <br>
+            <input type="submit" value="COMMENT IT UP FAM">
+            <input type="hidden" value= {{i.id}} name="messid">
+        </form>
+        {% endfor %}

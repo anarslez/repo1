@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\bin\Debug\netcoreapp2.0\viewmodel.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\bin\Debug\netcoreapp2.0\viewmodel.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\bin\Debug\netcoreapp2.0\viewmodel.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\bin\Debug\netcoreapp2.0\viewmodel.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\bin\Debug\netcoreapp2.0\viewmodel.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\obj\Debug\netcoreapp2.0\viewmodel.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\obj\Debug\netcoreapp2.0\viewmodel.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\obj\Debug\netcoreapp2.0\viewmodel.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\obj\Debug\netcoreapp2.0\viewmodel.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\obj\Debug\netcoreapp2.0\viewmodel.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\viewmodel\obj\Debug\netcoreapp2.0\viewmodel.pdb

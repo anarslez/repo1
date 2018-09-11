@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\bin\Debug\netcoreapp2.0\razorfun.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\bin\Debug\netcoreapp2.0\razorfun.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\bin\Debug\netcoreapp2.0\razorfun.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\bin\Debug\netcoreapp2.0\razorfun.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\bin\Debug\netcoreapp2.0\razorfun.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\obj\Debug\netcoreapp2.0\razorfun.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\obj\Debug\netcoreapp2.0\razorfun.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\obj\Debug\netcoreapp2.0\razorfun.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\obj\Debug\netcoreapp2.0\razorfun.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\obj\Debug\netcoreapp2.0\razorfun.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\razorfun\obj\Debug\netcoreapp2.0\razorfun.pdb

@@ -1,0 +1,56 @@
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+    
+            body {
+                border: solid gray;
+                height: 300px;
+            }
+    
+            h4 {
+                width: 30%;
+                display: inline-block;
+            }
+    
+            p {
+                width: 40%;
+                display: inline-block;
+            }
+    
+            div {
+                background-color: white;
+                width: 80%;
+                margin: auto;
+            }
+    
+            input.but {
+                margin-left: 50%;
+                width: 10%;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <form action="/" method="GET">
+            <div>
+                <h4>Email:</h4>
+                <p>{{ email }}</p>
+            </div>
+            <div class="drop">
+                <h4>Dojo Location:</h4>
+                <p>{{ loc }}</p>
+            </div>
+            <div class="drop">
+                <h4>Fave Language:</h4>
+                <p>{{ lang }}</p>
+            </div>
+            <div class='com'>
+                <h4>Comment (not optional):</h4>
+                <p>{{ comment }}</p>
+            </div>
+            <input class="but" type="submit" value="go back">
+        </form>
+        <a href="/">GO BACK YOU YUPPY</a>
+    </body>

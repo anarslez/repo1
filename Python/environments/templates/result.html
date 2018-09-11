@@ -1,0 +1,60 @@
+<head>
+    <style>
+        * {
+            margin: 10px;
+        }
+
+        body {
+            border: solid gray;
+            height: 300px;
+        }
+
+        h4 {
+            width: 30%;
+            display: inline-block;
+        }
+
+        p {
+            width: 40%;
+            display: inline-block;
+        }
+
+        div {
+            background-color: white;
+            width: 80%;
+            margin: auto;
+        }
+
+        input.but {
+            margin-left: 50%;
+            width: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/result" method="GET">
+        <div>
+            <h4>Email:</h4>
+            <p>{{ email }}</p>
+        </div>
+        <div>
+            <h4>First Name:</h4>
+            <p>{{fname}}</p>
+        </div>
+        <div>
+            <h4>Last Name:</h4>
+            <p>{{lname}}</p>
+        </div>
+        <div>
+            <h4>Password:</h4>
+            <p>{{passw}}</p>
+        </div>
+        <div>
+            <h4>Confirm Password:</h4>
+            <p>{{conpass}}</p>
+        </div>
+        <input class="but" type="submit" value="go back">
+    </form>
+    <a href="/">GO BACK YOU YUPPY</a>
+</body>

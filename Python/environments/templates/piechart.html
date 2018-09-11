@@ -1,0 +1,38 @@
+<head>
+    <script>
+        
+    </script>
+    <style>
+        p {
+            width: 40%;
+            display: inline-block;
+            border: solid gray;
+            margin: 0px;
+        }
+
+        p.sub {
+            margin-top: 20px;
+            width: 20%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <form action='/create' method='post'>
+        <p>NAME</p>
+        <p>NUMBER OF ORDERS</p>
+        {% for i in orders%}
+        <p>{{i['name']}}</p>
+        <p>{{i['orders']}}</p>
+        {% endfor %}
+        <p class="sub">Name:</p>
+        <input type="text" name="name">
+        <p class="sub">Number of Orders:</p>
+        <input type="text" name="orders">
+        <br>
+        <input class="but" type="submit" value="Submit">
+    </form>
+    
+</body>

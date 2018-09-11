@@ -1,0 +1,70 @@
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+    
+            body {
+                border: solid gray;
+                min-height: 300px;
+            }
+    
+            h4 {
+                width: 30%;
+                display: inline-block;
+            }
+    
+            input {
+                width: 40%;
+                display: inline-block;
+            }
+    
+            div {
+                background-color: white;
+                width: 80%;
+                margin: auto;
+            }
+    
+            input.but {
+                margin-left: 50%;
+                width: 10%;
+            }
+            th {
+                width: 10%;
+                border: gray solid;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h2>Add a User</h2>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Edit</th>
+                <th>Show</th>
+            </tr>
+            
+        {% for i in list%}
+            <tr>
+            <form action="/edit" method="POST">
+            {% csrf_token %}
+            <th>{{i.first_name}}</th>
+            <th>{{i.last_name}}</th>
+            <th>{{i.email}}</th>
+            <input type="hidden" name = "id" value= {{i.id}}>
+            <th><input type="submit" value="edit"></th>
+            </form>
+            <form action="/show" method="POST">
+            {% csrf_token %}
+            <input type="hidden" name = "id" value= {{i.id}}>
+            <th><input type="submit" value="show"></th>
+            </form>
+        </tr>
+        {% endfor %}
+            
+        </table>
+        <a href="/new">New User</a>
+    </body>

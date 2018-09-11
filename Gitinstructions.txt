@@ -1,0 +1,12 @@
+git init
+link from git repo
+git add .
+git commit -m "msg"
+
+#adding a branch
+git checkout -b changes_name
+git push origin changes_name
+go to github and merge
+
+#seeing new changes
+git pull origin master

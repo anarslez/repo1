@@ -1,0 +1,71 @@
+<head>
+    <style>
+        * {
+            margin: 10px;
+        }
+
+        body {
+            border: solid gray;
+            height: 300px;
+        }
+
+        h4 {
+            width: 30%;
+            display: inline-block;
+        }
+
+        input {
+            width: 40%;
+            display: inline-block;
+        }
+
+        div {
+            background-color: white;
+            width: 80%;
+            margin: auto;
+        }
+
+        input.but {
+            margin-left: 50%;
+            width: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action='/user' method='post'>
+        {% with messages = get_flashed_messages() %} 
+            {% if messages %} 
+                {% for message in messages %}
+                    <p>{{message}}</p>
+                {% endfor %} 
+            {% endif %}
+        {% endwith %}
+        <div>
+            <h4>Email:</h4>
+            <input type="text" name="email">
+        </div>
+        <div class="drop">
+            <h4>Dojo Location:</h4>
+            <select name='loc'>
+                <option value="San Jose">San Jose</option>
+                <option value="Mars">Mars</option>
+                <option value="Antarctica">Antarctica</option>
+                <option value="Chicago">Chicago</option>
+            </select>
+        </div>
+        <div class="drop">
+            <h4>Fave Language:</h4>
+            <select name='lang'>
+                <option value="Python">Python</option>
+                <option value="Dothracky">Dothracky</option>
+                <option value="Eskinmo">Eskimo</option>
+            </select>
+        </div>
+        <div class='com'>
+            <h4>Comment (not optional):</h4>
+            <input type="text" name="comment">
+        </div>
+        <input class="but" type="submit" value="Submit">
+    </form>
+</body>

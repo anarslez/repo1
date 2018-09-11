@@ -1,0 +1,21 @@
+<head>
+<style>
+h1 {
+    color: maroon;
+    margin: 40px auto;
+} 
+div{
+    background-color: {{color}};
+    width: 25%;
+    height: 100px;
+    margin: auto;
+    display: inline-block;
+}
+</style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    {% for i in range(num)%}
+        <div></div>
+    {% endfor %}
+</body>

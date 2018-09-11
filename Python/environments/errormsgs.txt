@@ -1,0 +1,6 @@
+"Access denied for user 'root'@'localhost' (using password: YES)")
+--fixed the password now it works
+InternalError: (1049, "Unknown database 'mydb_users'")
+--wrong database now it works
+Something went wrong (1146, "Table 'mydb.mydbbooks' doesn't exist")
+--wrong table name now it works

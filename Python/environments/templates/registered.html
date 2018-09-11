@@ -1,0 +1,61 @@
+<head>
+        <style>
+            input {
+                display: block;
+                height: 20px;
+                width: 100px;
+                background-color: red;
+                font-size: 10px;
+            }
+            div{
+                width: 40%;
+                display: inline-block;
+            }
+            div input{
+                display: block;
+                height: 50px;
+                width: 300px;
+                background-color:white;
+                font-size: 10px;
+            }
+            div input.but{
+                display: block;
+                height: 30px;
+                width: 60px;
+                background-color: gray;
+                font-size: 10px;
+            }
+            h4 {
+                width: 40%;
+                display: inline-block;
+            }
+        </style>
+</head>
+    
+    <body>
+        <h1>Thank you  {{session["userid"]}}. Now I know your email muahahaha</h1>  
+        <form action="/logout" method="POST">
+            <input type="submit" value="LOGOUT">
+        </form>
+        <br>
+        <h4>Your Messages</h4>
+        <h4>Send Message</h4>
+        <div id="hide">
+            <form action="/hide" method="POST">
+                {% for i in mess%}
+                <p>{{i['sent_id']}}:</p>
+                <p>{{i['mesage']}}</p>
+                {% endfor %}
+                <input class = "but" type="submit" value="HIDE">  
+            </form>
+        </div>
+        <div>
+            <form action="/send" method="POST">
+                {% for i in recs%}
+                <p>{{i['fist_name']}}:</p>
+                <input type="text" name="message">
+                <input class = "but" type="submit" name = "rec_id" value= {{i['id']}}>
+                {% endfor %}
+            </form>
+        </div>
+    </body>

@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\bin\Debug\netcoreapp2.0\quotedojo.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\bin\Debug\netcoreapp2.0\quotedojo.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\bin\Debug\netcoreapp2.0\quotedojo.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\bin\Debug\netcoreapp2.0\quotedojo.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\bin\Debug\netcoreapp2.0\quotedojo.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\obj\Debug\netcoreapp2.0\quotedojo.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\obj\Debug\netcoreapp2.0\quotedojo.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\obj\Debug\netcoreapp2.0\quotedojo.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\obj\Debug\netcoreapp2.0\quotedojo.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\obj\Debug\netcoreapp2.0\quotedojo.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\quotedojo\obj\Debug\netcoreapp2.0\quotedojo.pdb

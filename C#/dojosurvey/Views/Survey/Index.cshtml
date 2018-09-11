@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+@model Response
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+    
+            body {
+                border: solid gray;
+                height: 300px;
+            }
+    
+            h4 {
+                width: 30%;
+                display: inline-block;
+            }
+    
+            input {
+                width: 40%;
+                display: inline-block;
+            }
+    
+            div {
+                background-color: white;
+                width: 80%;
+                margin: auto;
+            }
+    
+            input.but {
+                margin-left: 50%;
+                width: 10%;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <form asp-action="method" asp-controller="Survey" method="post">
+            <div>
+                <h4>Email:</h4>
+                <span asp-validation-for="email"></span>
+                <input asp-for="email">
+            </div>
+            <div class="drop">
+                <h4>Dojo Location:</h4>
+                <span asp-validation-for="loc"></span>
+                <select asp-for='loc'>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Antarctica">Antarctica</option>
+                    <option value="Chicago">Chicago</option>
+                </select>
+            </div>
+            <div class="drop">
+                <h4>Fave Language:</h4>
+                <span asp-validation-for="lang"></span>
+                <select asp-for='lang'>
+                    <option value="Python">Python</option>
+                    <option value="Dothracky">Dothracky</option>
+                    <option value="Eskinmo">Eskimo</option>
+                </select>
+            </div>
+            <div class='com'>
+                <h4>Comment (not optional):</h4>
+                <span asp-validation-for="com"></span>
+                <input asp-for="com">
+            </div>
+            <input class="but" type="submit" value="Submit">
+        </form>
+    </body>

@@ -1,0 +1,30 @@
+<head>
+    <style>
+        p {
+            width: 30%;
+            display: inline-block;
+            border: solid gray;
+            margin: 0px;
+        }
+        p.sub {
+            margin-top: 20px;
+            width: 20%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <form action='/create_friend' method='post'>
+        <p>FIRST NAME</p><p>LAST NAME</p><p>OCCUPATION</p>
+        {% for friend in friends%}
+            <p>{{friend['first_name']}}</p><p>{{friend['last_name']}}</p><p>{{friend['occupation']}}</p>
+        {% endfor %}
+        <p class="sub">First Name:</p><input type="text" name="first_name">  
+        <p class="sub">Last Name:</p><input type="text" name="last_name">
+        <p class="sub">Occupation:</p><input type="text" name="occupation">
+        <br>
+        <input class="but" type="submit" value="Submit">
+    </form>
+</body>

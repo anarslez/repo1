@@ -1,0 +1,44 @@
+@model viewmodel.Models.Number
+<!DOCTYPE html>
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+    
+            body {
+                border: solid gray;
+                height: 300px;
+            }
+    
+            h4 {
+                width: 30%;
+                display: inline-block;
+            }
+    
+            input {
+                width: 40%;
+                display: inline-block;
+            }
+    
+            div {
+                background-color: white;
+                width: 80%;
+                margin: auto;
+            }
+    
+            input.but {
+                margin-left: 50%;
+                width: 10%;
+            }
+         </style>
+</head>
+    
+<body>
+    @foreach(var word in Model.num)
+    {
+       <div>
+          <p>@word</p>
+       </div>
+    }
+</body>

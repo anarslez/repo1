@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <link rel="image" href="~/pup.gif"/>
+        <style>
+            * {
+                margin: 10px;
+            }
+            p{
+                text-align: center;
+            }
+            form{
+                width: 22%;
+                display: inline-block;
+            }
+            .pup{
+                border: gray solid;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <p>  
+            Fullness: @ViewBag.DachiData.fullness 
+            Happiness: @ViewBag.DachiData.happiness
+            Meals: @ViewBag.DachiData.meals 
+            Energy: @ViewBag.DachiData.energy 
+        </p>
+        <div class="pup">
+            <img src="pup.gif" alt="pup">
+            <br>
+            @ViewBag.DachiData.status
+        </div>
+        <div>
+            @{
+                if(ViewBag.DachiData.status == "Your Dachi just died..." || ViewBag.DachiData.status == "You won!" )
+                {
+                    <form action="Restart" method="post">
+                    <input type="submit" name="activity" value="Restart">
+                    </form>   
+                }
+                else
+                {
+                    <form action="Feed" method="post">
+                    <input type="submit" name="activity" value="Feed">
+                    </form>
+                    <form action="Play" method="post">
+                    <input type="submit" name="activity" value="Play">
+                    </form>
+                    <form action="Work" method="post">
+                    <input type="submit" name="activity" value="Work">
+                    </form>
+                    <form action="Sleep" method="post">
+                    <input type="submit" name="activity" value="Sleep">
+                    </form>
+                }
+            }
+        </div>
+    </body>

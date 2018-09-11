@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\bin\Debug\netcoreapp2.0\portfolio.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\bin\Debug\netcoreapp2.0\portfolio.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\bin\Debug\netcoreapp2.0\portfolio.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\bin\Debug\netcoreapp2.0\portfolio.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\bin\Debug\netcoreapp2.0\portfolio.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\obj\Debug\netcoreapp2.0\portfolio.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\obj\Debug\netcoreapp2.0\portfolio.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\obj\Debug\netcoreapp2.0\portfolio.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\obj\Debug\netcoreapp2.0\portfolio.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\obj\Debug\netcoreapp2.0\portfolio.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\portfolio\obj\Debug\netcoreapp2.0\portfolio.pdb

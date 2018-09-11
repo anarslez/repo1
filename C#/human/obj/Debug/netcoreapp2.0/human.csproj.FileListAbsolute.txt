@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\obj\Debug\netcoreapp2.0\human.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\obj\Debug\netcoreapp2.0\human.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\obj\Debug\netcoreapp2.0\human.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\obj\Debug\netcoreapp2.0\human.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\bin\Debug\netcoreapp2.0\human.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\bin\Debug\netcoreapp2.0\human.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\bin\Debug\netcoreapp2.0\human.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\bin\Debug\netcoreapp2.0\human.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\bin\Debug\netcoreapp2.0\human.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\obj\Debug\netcoreapp2.0\human.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\human\obj\Debug\netcoreapp2.0\human.pdb

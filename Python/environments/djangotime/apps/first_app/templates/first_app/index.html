@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Index</title>   
+    </head>
+    <form action="/first_app/rand" method="post">
+      {% csrf_token %}
+        <h1>THIS IS THE NUMBER REFRESH TO REFRESH THE NUMBER!</h1>
+        <p>{{num}}</p>
+    </form>
+  </html>

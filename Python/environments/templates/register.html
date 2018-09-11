@@ -1,0 +1,67 @@
+<head>
+    <style>
+        * {
+            margin: 10px;
+        }
+
+        body {
+            border: solid gray;
+            min-height: 300px;
+        }
+
+        h4 {
+            width: 30%;
+            display: inline-block;
+        }
+
+        input {
+            width: 40%;
+            display: inline-block;
+        }
+
+        div {
+            background-color: white;
+            width: 80%;
+            margin: auto;
+        }
+
+        input.but {
+            margin-left: 50%;
+            width: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action='/user' method='post'>
+        <h2>Registerstration for a Fake Website</h2>
+        {% with messages = get_flashed_messages() %} 
+            {% if messages %} 
+                {% for message in messages %}
+                    <p>{{message}}</p>
+                {% endfor %} 
+            {% endif %} 
+        {% endwith %}
+        <div>
+            <h4>Email:</h4>
+            <input type="text" name="email">
+        </div>
+        <div>
+            <h4>First Name:</h4>
+            <input type="text" name="fname">
+        </div>
+        <div>
+            <h4>Last Name:</h4>
+            <input type="text" name="lname">
+        </div>
+        <div>
+            <h4>Password:</h4>
+            <input type="text" name="passw">
+        </div>
+        <div>
+            <h4>Confirm Password:</h4>
+            <input type="text" name="conpass">
+        </div>
+        <input class="but" type="submit" value="Submit">
+    </form>
+</body>

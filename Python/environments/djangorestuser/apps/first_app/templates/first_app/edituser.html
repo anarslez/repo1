@@ -1,0 +1,55 @@
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+    
+            body {
+                border: solid gray;
+                height: 300px;
+            }
+    
+            h4 {
+                width: 30%;
+                display: inline-block;
+            }
+    
+            input {
+                width: 40%;
+                display: inline-block;
+            }
+    
+            div {
+                background-color: white;
+                width: 80%;
+                margin: auto;
+            }
+    
+            input.but {
+                margin-left: 50%;
+                width: 10%;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <form action='/update' method='post'>
+            {% csrf_token %}
+            <h2>Edit User</h2>
+            <div>
+                <h4>First Name:</h4>
+                <input type="text" name="first_name" value={{first_name}}>
+            </div>
+            <div>
+                <h4>Last Name:</h4>
+                <input type="text" name="last_name" value={{last_name}}>
+            </div>
+            <div>
+                <h4>Email:</h4>
+                <input type="text" name="email" value={{email}}>
+            </div>
+            <input type="hidden" name="id" value={{id}}>
+            <input class="but" type="submit" value="Update">
+        </form>
+        <a href="/">Go Back</a>
+    </body>

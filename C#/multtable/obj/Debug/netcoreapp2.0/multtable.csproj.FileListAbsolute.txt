@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\bin\Debug\netcoreapp2.0\multtable.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\bin\Debug\netcoreapp2.0\multtable.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\bin\Debug\netcoreapp2.0\multtable.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\bin\Debug\netcoreapp2.0\multtable.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\bin\Debug\netcoreapp2.0\multtable.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\obj\Debug\netcoreapp2.0\multtable.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\obj\Debug\netcoreapp2.0\multtable.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\obj\Debug\netcoreapp2.0\multtable.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\obj\Debug\netcoreapp2.0\multtable.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\obj\Debug\netcoreapp2.0\multtable.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\multtable\obj\Debug\netcoreapp2.0\multtable.pdb

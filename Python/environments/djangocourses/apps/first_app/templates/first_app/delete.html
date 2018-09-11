@@ -1,0 +1,52 @@
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+    
+            body {
+                border: solid gray;
+                min-height: 300px;
+            }
+    
+            h2 {
+                color: red;
+            }
+    
+            input {
+                width: 40%;
+                display: inline-block;
+            }
+    
+            div {
+                background-color: white;
+                width: 80%;
+                margin: auto;
+            }
+    
+            input.but {
+                width: 20%;
+                display: inline-block;
+            }
+            a{
+                width: 20%;
+                display: inline-block;
+            }
+            th {
+                width: 10%;
+                border: gray solid;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h2>Are you sure?</h2>
+        <form action="/confirm" method="POST">
+        {% csrf_token %}
+        <p>Name: {{name}}</p>
+        <p>Description: {{desc}}</p>
+        <input type="hidden" name = "id" value= {{id}}>
+        <input type="submit" value="DELETE" class="but">
+        </form>
+        <a href="/">Go Back</a>
+    </body>

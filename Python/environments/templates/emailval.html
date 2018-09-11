@@ -1,0 +1,26 @@
+<head>
+        <style>
+            input{
+                margin-left: 40%;
+                width: 20%;
+            }
+            div{
+                margin-left: 30%;
+                height: 100px; 
+                width: 40%;
+                padding-top: 40px;
+                text-align: center;
+                background-color: {{ color1 }}
+            }
+        </style>
+</head>
+
+<body>
+    <form action='/create' method='post'>
+        <div>
+            <p>{{result}}</p>
+        </div>
+        <input type="text" name="email">
+        <input class="but" type="submit" value="Submit">
+    </form>
+</body>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+@model Response
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+    
+            body {
+                border: solid gray;
+                height: 300px;
+            }
+    
+            h4 {
+                width: 30%;
+                display: inline-block;
+            }
+    
+            input {
+                width: 40%;
+                display: inline-block;
+            }
+    
+            div {
+                background-color: white;
+                width: 80%;
+                margin: auto;
+            }
+    
+            input.but {
+                margin-left: 50%;
+                width: 10%;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <form asp-action="method" asp-controller="Form" method="post">
+            <div>
+                <h4>First Name:</h4>
+                <span asp-validation-for="fname"></span>
+                <input asp-for="fname">
+            </div>
+            <div>
+                <h4>Last Name:</h4>
+                <span asp-validation-for="lname"></span>
+                <input asp-for="lname">
+            </div>
+            <div>
+                <h4>Age:</h4>
+                <span asp-validation-for="age"></span>
+                <input asp-for="age">
+            </div>
+            <div>
+                <h4>Email:</h4>
+                <span asp-validation-for="email"></span>
+                <input asp-for="email">
+            </div>
+            <div>
+                <h4>Password:</h4>
+                <span asp-validation-for="password"></span>
+                <input asp-for="password">
+            </div>
+            <input class="but" type="submit" value="Submit">
+        </form>
+    </body>

@@ -1,0 +1,57 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments>\flaskEnv\Scripts
+The system cannot find the path specified.
+
+C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments>cd flaskEnv\Scripts
+
+C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\flaskEnv\Scripts>activate
+
+(flaskEnv) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\flaskEnv\Scripts>cd..
+
+(flaskEnv) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\flaskEnv>cd..
+
+(flaskEnv) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments>
+
+PYTHON INSTRUCTIONS
+C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments> call py3Env/Scripts/activate
+call djangoPy3Env/Scripts/activate
+
+DJANGO PROJECT EX
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments>django-admin startproject djangotime
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments>cd djangotime
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangotime>mkdir apps
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangotime\apps> python ../manage.py startapp first_app
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangotime\apps>nul> __init__.py
+Access is denied.
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangotime\apps>cd first_app
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangotime\apps\first_app>touch urls.py
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangotime\apps\first_app>cd..
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangotime\apps>cd..
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangotime>manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 13 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 09, 2018 - 08:23:41
+Django version 1.10, using settings 'djangotime.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+FOR SESSION
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangosurvey>python manage.py makemigrations
+No changes detected
+
+(djangoPy3Env) C:\Users\anars\OneDrive\Desktop\CodingDojo\Python\environments\djangosurvey>python manage.py migrate
+

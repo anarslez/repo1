@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\bin\Debug\netcoreapp2.0\cardgame.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\bin\Debug\netcoreapp2.0\cardgame.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\bin\Debug\netcoreapp2.0\cardgame.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\bin\Debug\netcoreapp2.0\cardgame.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\bin\Debug\netcoreapp2.0\cardgame.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\obj\Debug\netcoreapp2.0\cardgame.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\obj\Debug\netcoreapp2.0\cardgame.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\obj\Debug\netcoreapp2.0\cardgame.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\obj\Debug\netcoreapp2.0\cardgame.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\obj\Debug\netcoreapp2.0\cardgame.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\cardgame\obj\Debug\netcoreapp2.0\cardgame.pdb

@@ -1,0 +1,42 @@
+<head>
+    <style>
+        *{
+            margin: 0px;
+        }
+        h4 {
+            border: solid gray;
+        }
+
+        p {
+            border: solid gray;
+        }
+
+        div {
+            background-color: white;
+            width: 30%;
+            margin: auto;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h4>First Name</h4>
+        {% for name in users: %}
+        <p>Student Name: {{ name['first_name'] }} </p>
+        {% endfor %}
+    </div>
+    <div>
+        <h4>Last Name</h4>
+        {% for name in users: %}
+        <p>Student Name: {{ name['last_name'] }} </p>
+        {% endfor %}
+    </div>
+    <div>
+        <h4>Full Name</h4>
+        {% for name in users: %}
+        <p>Student Name: {{ name['first_name']+'  '+name['last_name'] }} </p>
+        {% endfor %}
+    </div>
+</body>

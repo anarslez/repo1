@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <link rel="image" href="~/pup.gif"/>
+        <style>
+            * {
+                margin: 10px;
+            }
+            img{
+                width: 30%;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <h1>Quoting Dojo</h1>
+    @if(ViewBag.Error != null){
+        <b style="color:red;">@ViewBag.Error</b>
+    }
+    <form action="/quotes" method="POST">
+        <div>
+        <p>Your name: </p><input type="text" name="name">
+        <p>Your quote: </p><input type="text" name="quote">
+        </div>
+        <input type="submit" value="Add my quote!">
+    </form>
+    <a href="/quotes"><button>Skip to quotes!</button></a>
+    <br>
+        <img src="pup.gif" alt="pup">
+    </body>

@@ -1,0 +1,68 @@
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+    
+            body {
+                border: solid gray;
+                min-height: 300px;
+            }
+    
+            h4 {
+                width: 30%;
+                display: inline-block;
+            }
+    
+            input {
+                width: 40%;
+                display: inline-block;
+            }
+    
+            div {
+                background-color: white;
+                width: 80%;
+                margin: auto;
+            }
+    
+            input.but {
+                margin-left: 86%;
+                width: 10%;
+            }
+            th {
+                width: 10%;
+                border: gray solid;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h2>Add a Course Ya Yuppy</h2>
+        <form action="/add" method="POST">
+        {% csrf_token %}
+        Name: <input type="text" name="name">
+        Description: <input type="text" name = "desc">
+        <input type="submit" value="ADD" class="but">
+        </form>
+        <h2>Courses</h2>
+        <table>
+            <tr>
+                <th>Course Name</th>
+                <th>Description</th>
+                <th>Date Added</th>
+                <th>Remove</th>
+            </tr> 
+        {% for i in list%}
+            <tr>
+            <form action="/delete" method="POST">
+            {% csrf_token %}
+            <th>{{i.name}}</th>
+            <th>{{i.desc}}</th>
+            <th>{{i.created_at}}</th>
+            <input type="hidden" name = "id" value= {{i.id}}>
+            <th><input type="submit" value="delete"></th>
+            </form>
+            </tr>
+        {% endfor %}    
+        </table>
+    </body>

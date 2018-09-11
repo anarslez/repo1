@@ -1,0 +1,57 @@
+
+>>> User.objects.first()
+<User object: addi narddog anarslez>
+>>> User.objects.first().uploaded_posts
+<django.db.models.fields.related_descriptors.create_reverse_many_to_one_manager.<locals>.RelatedManager object at 0x042D00F0>
+>>> Post.objects.create(name = 'cats', desc = 'cat doing dog things', uploader = a1)
+<Post object: cats cat doing dog things User object>
+>>> Post.objects.create(name = 'catdogs', desc = 'cat doing catdog things', uploader = a1)
+<Post object: catdogs cat doing catdog things User object>
+>>> User.objects.create(first_name = 'laddi', last_name = 'larddog', email = 'lanarslez')
+<User object: laddi larddog lanarslez>
+>>> a2 = User.objects.get( id = 2)
+>>> Post.objects.create(name = 'dolphins', desc = 'dolphins doing dog things', uploader = a2)
+<Post object: dolphins dolphins doing dog things User object>
+>>> Post.objects.filter(uploader = a1)
+<QuerySet [<Post object: dogs dog doing dog things User object>, <Post object: cats cat doing dog things User object>, <Post object: catdogs cat doing catdog things User object>]>
+>>> Post.objects.filter(uploader = a2)
+<QuerySet [<Post object: dolphins dolphins doing dog things User object>]>
+>>> p1 = Post.objects.get(id = 1)
+>>> p2 = Post.objects.get(id = 2)
+>>> p3 = Post.objects.get(id = 3)
+>>> p4 = Post.objects.get(id = 4)
+>>> Like.objects.create(post = p1, user = a2)
+<Like object: Post object User object>
+>>> Like.objects.create(post = p1, user = a3)
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'a3' is not defined
+>>> Like.objects.create(post = p1, user = a2)
+<Like object: Post object User object>
+>>> Like.objects.create(post = p2, user = a2)
+<Like object: Post object User object>
+>>> Like.objects.create(post = p3, user = a2)
+<Like object: Post object User object>
+>>> Like.objects.create(post = p4, user = a2)
+<Like object: Post object User object>
+>>> Post.objects.first().liked_users
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: 'Post' object has no attribute 'liked_users'
+>>> Post.objects.first().liked_by
+<django.db.models.fields.related_descriptors.create_reverse_many_to_one_manager.<locals>.RelatedManager object at 0x00934A10>
+>>> Post.objects.first().post
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: 'Post' object has no attribute 'post'
+>>> Post.objects.first().user
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: 'Post' object has no attribute 'user'
+>>> User.objects.first().liked_posts
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: 'User' object has no attribute 'liked_posts'
+>>> User.objects.first().liked_post
+<django.db.models.fields.related_descriptors.create_reverse_many_to_one_manager.<locals>.RelatedManager object at 0x00934A70>
+>>>

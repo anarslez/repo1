@@ -1,0 +1,11 @@
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\bin\Debug\netcoreapp2.0\dojosurvey.deps.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\bin\Debug\netcoreapp2.0\dojosurvey.runtimeconfig.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\bin\Debug\netcoreapp2.0\dojosurvey.runtimeconfig.dev.json
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\bin\Debug\netcoreapp2.0\dojosurvey.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\bin\Debug\netcoreapp2.0\dojosurvey.pdb
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\obj\Debug\netcoreapp2.0\dojosurvey.csprojResolveAssemblyReference.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\obj\Debug\netcoreapp2.0\dojosurvey.csproj.CoreCompileInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\obj\Debug\netcoreapp2.0\dojosurvey.AssemblyInfoInputs.cache
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\obj\Debug\netcoreapp2.0\dojosurvey.AssemblyInfo.cs
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\obj\Debug\netcoreapp2.0\dojosurvey.dll
+C:\Users\anars\OneDrive\Desktop\CodingDojo\C#\dojosurvey\obj\Debug\netcoreapp2.0\dojosurvey.pdb

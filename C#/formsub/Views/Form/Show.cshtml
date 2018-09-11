@@ -1,0 +1,51 @@
+@model formsub.Models.Response
+<!DOCTYPE html>
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+            body {
+                border: solid gray;
+                height: 300px;
+                padding: 20px;
+            }
+            h4 {
+                width: 30%;
+                display: inline-block;
+            }
+            input {
+                width: 40%;
+                display: inline-block;
+            }
+            div {
+                background-color: white;
+                width: 80%;
+                margin: auto;
+            }
+            input.but {
+                margin-left: 50%;
+                width: 10%;
+            }
+         </style>
+</head>
+    
+<body>
+    First Name: @Model.fname
+    <br>
+    <br>
+    <br>
+    Last Name: @Model.lname
+    <br>
+    <br>
+    <br>
+    Email: @Model.email
+    <br>
+    <br>
+    <br>
+    Age: @Model.age
+    <br>
+    <br>
+    <br>
+    <a href="/">Go back ya scrub</a>
+</body>

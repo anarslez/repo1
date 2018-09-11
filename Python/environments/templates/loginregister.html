@@ -1,0 +1,84 @@
+<head>
+    <style>
+        input {
+            display: block;
+        }
+
+        div {
+            width: 45%;
+            display: inline-block;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>New User Registration</h1>
+        <form action="/register" method="POST">
+            First Name:
+            <input type="text" name="first_name"> 
+            {% with errors = get_flashed_messages(category_filter=['first_name']) %} 
+                {% if errors %} 
+                    {% for msg in errors%}
+            <p class="error">{{ msg }}</p>
+                    {% endfor %} 
+                {% endif %} 
+            {% endwith %} 
+            Last Name:
+            <input type="text" name="last_name"> 
+            {% with errors = get_flashed_messages(category_filter=['last_name']) %} 
+            {% if errors %} 
+            {% for msg in errors%}
+            <p class="error">{{ msg }}</p>
+            {% endfor %} 
+            {% endif %} 
+            {% endwith %} 
+            Email:
+            <input type="text" name="email"> 
+            {% with errors = get_flashed_messages(category_filter=['email']) %} 
+            {% if errors %} 
+            {% for msg in errors %}
+            <p class="error">{{ msg }}</p>
+            {% endfor %} 
+            {% endif %} 
+            {% endwith %} 
+            Password:
+            <input type="text" name="password"> 
+            {% with errors = get_flashed_messages(category_filter=['password']) %} 
+            {% if errors %} 
+            {% for msg in errors%}
+            <p class="error">{{ msg }}</p>
+            {% endfor %} 
+            {% endif %} 
+            {% endwith %} 
+            Confirmed Password:
+            <input type="text" name="conpassword"> 
+            {% with errors = get_flashed_messages(category_filter=['conpassword']) %} 
+            {% if errors %} 
+            {% for msg in errors%}
+            <p class="error">{{ msg }}</p>
+            {% endfor %} 
+            {% endif %} 
+            {% endwith %}
+            <input type="submit" value="REGISTER YA BUM">
+        </form>
+    </div>
+    <div>
+            <form action="/login" method="POST">
+                <h1>Login</h1>
+                Email:
+                <input type="text" name="email">
+                Password:
+                <input type="text" name="password">
+                {% with errors = get_flashed_messages(category_filter=['login']) %} 
+                {% if errors %} 
+                {% for msg in errors%}
+                    <p class="error">{{ msg }}</p>
+                {% endfor %} 
+                {% endif %} 
+                {% endwith %}
+                <input type="submit" value="LOGIN">
+            </form>
+    </div>
+</body>

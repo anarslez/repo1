@@ -1,0 +1,63 @@
+<head>
+        <style>
+            * {
+                margin: 10px;
+            }
+    
+            body {
+                border: solid gray;
+                height: 400px;
+            }
+    
+            h4 {
+                width: 35%;
+            }
+    
+            input {
+                width: 30%;
+            }
+    
+            div.left {
+                background-color: white;
+                width: 40%;
+                border-right: solid black;
+                display: inline-block;
+            }
+            div.right {
+                background-color: white;
+                width: 40%;
+                display: inline-block;
+            }
+    
+            input.but {
+                width: 70%;
+            }
+        </style>
+    </head>
+    
+    <body>
+            <div class="left">
+        <form action='/sesh' method='post'>
+            {% csrf_token %}
+                <h4>WORD UP MATE:</h4>
+                <input type="text" name="word"><br>
+                <label for="color">Choose color</label><br>
+                <input type="hidden" name="color" value="black">
+                Red<input type="radio" name="color" value="red"><br>
+                Green<input type="radio" name="color" value="green"><br>
+                Blue<input type="radio" name="color" value="blue"><br>
+                Show in BIG fonts
+                <input type="hidden" name="big_font" value="0">
+                <input type="checkbox" name="big_font" value="1"><br>
+                <input class="but" type="submit" value="ADD TO SESSION">
+        </form>
+        </div>
+        <div class = "right">
+        <form action="/session_word" method="GET">
+            {% for i in list%}
+            <a style="color: {{i.color}}; font-size: {{i.show_big}}9px;">{{i.word}}</a>
+            {% endfor %}
+        </form>
+        </div>
+
+    </body>
